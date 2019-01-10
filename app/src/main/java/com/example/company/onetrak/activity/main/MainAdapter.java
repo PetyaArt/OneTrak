@@ -11,16 +11,16 @@ import com.example.company.onetrak.R;
 import com.example.company.onetrak.data.Fit;
 import com.txusballesteros.widgets.FitChart;
 
-import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Locale;
 
 public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
 
     private List<Fit> mFit;
-    private Integer mGoal = 0;
+    private Integer mGoal;
 
     MainAdapter(ArrayList<Fit> fit, String goal) {
         mFit = fit;
@@ -96,7 +96,7 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
         String getTime(Fit fit) {
             Long yourSeconds = fit.getDate();
             Date date = new Date(yourSeconds);
-            SimpleDateFormat  df = new SimpleDateFormat("dd MMM yyyy");
+            SimpleDateFormat  df = new SimpleDateFormat("dd MMM yyyy", Locale.ENGLISH);
             return df.format(date);
         }
 

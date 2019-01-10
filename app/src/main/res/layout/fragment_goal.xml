@@ -18,10 +18,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/counter"
         app:progress="1"
-        app:progressColor="@color/colorPrimaryDark"
         app:progressBackgroundWidth="20dp"
+        app:progressColor="@color/colorPrimaryDark"
         app:progressWidth="30dp"
-        app:roundEdges="true"/>
+        app:roundEdges="true" />
 
     <TextView
         android:id="@+id/set_your_goal"
@@ -50,5 +50,25 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/set_your_goal" />
+
+    <TextView
+        android:id="@+id/text_view_min"
+        style="@style/TextStyleTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/min"
+        app:layout_constraintBottom_toBottomOf="@+id/seek_goal"
+        app:layout_constraintEnd_toStartOf="@+id/seek_goal" />
+
+    <TextView
+        android:id="@+id/text_view_max"
+        style="@style/TextStyleTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/max"
+        app:layout_constraintBottom_toBottomOf="@+id/seek_goal"
+        app:layout_constraintStart_toEndOf="@+id/seek_goal" />
 
 </android.support.constraint.ConstraintLayout>

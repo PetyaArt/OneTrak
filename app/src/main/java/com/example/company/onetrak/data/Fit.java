@@ -1,7 +1,6 @@
 
 package com.example.company.onetrak.data;
 
-import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 public class Fit {

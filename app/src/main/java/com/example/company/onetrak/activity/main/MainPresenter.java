@@ -3,7 +3,6 @@ package com.example.company.onetrak.activity.main;
 import android.content.Context;
 import android.content.Intent;
 import android.net.ConnectivityManager;
-import android.util.Log;
 
 import com.example.company.onetrak.activity.goal.GoalActivity;
 import com.example.company.onetrak.data.Fit;
@@ -11,12 +10,10 @@ import com.example.company.onetrak.network.RetrofitInstance;
 import com.example.company.onetrak.util.Utils;
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
-import com.google.gson.JsonObject;
 import com.google.gson.reflect.TypeToken;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;
-import java.util.List;
 
 import io.reactivex.Observer;
 import io.reactivex.android.schedulers.AndroidSchedulers;

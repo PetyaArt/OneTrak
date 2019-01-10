@@ -1,7 +1,7 @@
 package com.example.company.onetrak.activity.goal;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 import com.example.company.onetrak.R;
 import com.example.company.onetrak.util.Utils;
