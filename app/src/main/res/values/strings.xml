@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">OneTrak</string>
+    <string name="save">Save</string>
+    <string name="_0">0</string>
+    <string name="set_your_goal">SET YOUR GOAL</string>
+    <string name="steps">Steps</string>
+    <string name="walk">walk</string>
+    <string name="run">run</string>
+    <string name="aerobic">aerobic</string>
+    <string name="update">Update</string>
+    <string name="set_goal">Set goal</string>
+    <string name="error">Error</string>
+    <string name="no_internet">No internet</string>
+</resources>
